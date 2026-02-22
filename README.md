@@ -12,7 +12,7 @@ A lo largo del curso, he profundizado en los siguientes pilares de la ciencia de
 Aplicación de un enfoque paso a paso para la resolución de problemas, donde la solución se construye procesando un elemento a la vez (ej. algoritmos de ordenamiento como Insertion Sort).
 
 ### 🔹 Análisis Asintótico
-Evaluación de la eficiencia de los algoritmos mediante la notación **Big O**. Capacidad para determinar el comportamiento de los algoritmos en el tiempo ($T(n)$) y espacio a medida que el tamaño de la entrada crece al infinito.
+Evaluación de la eficiencia de los algoritmos mediante la notación **Big O**. Capacidad para determinar el comportamiento de los algoritmos en el tiempo  y espacio a medida que el tamaño de la entrada crece al infinito.
 
 ### 🔹 Recursión
 Diseño de soluciones basadas en la definición de problemas en términos de sí mismos, dominando el manejo de casos base y llamadas recursivas para estructuras de datos y procesos lógicos.
