@@ -1,4 +1,3 @@
-
 # 🚀 Análisis y Diseño de Algoritmos: Documentación Técnica
 
 Este repositorio contiene el compendio de estrategias algorítmicas, análisis de complejidad y documentación de ingeniería de software desarrollados durante el curso. Aquí se exploran desde métodos básicos incrementales hasta optimizaciones avanzadas mediante Programación Dinámica.
@@ -28,8 +27,6 @@ Análisis de algoritmos que construyen la solución un paso a la vez.
 Estudio de la eficiencia de los algoritmos en el límite, cuando el tamaño de la entrada $n$ tiende al infinito.
 * **Notaciones:** $O(n)$ (Cota superior), $\Omega(n)$ (Cota inferior) y $\Theta(n)$ (Cota ajustada).
 
-
-
 ### 3. Recursión
 Implementación de funciones que se llaman a sí mismas para resolver problemas mediante una estructura de "caso base" y "caso recursivo".
 
@@ -49,31 +46,77 @@ Optimización de algoritmos recursivos mediante el almacenamiento de resultados 
 
 ---
 
+## 📚 Contenido por Semanas
+
+### 📌 Semana 7: Pilas y Colas
+Estructuras de datos fundamentales para el manejo de información en orden específico.
+
+* **Pilas (Stacks):**
+  - Estructura LIFO (Last In, First Out)
+  - Operaciones: push, pop, peek
+  - Aplicaciones: evaluación de expresiones, recursión
+
+* **Colas (Queues):**
+  - Estructura FIFO (First In, First Out)
+  - Operaciones: enqueue, dequeue
+  - Aplicaciones: manejo de procesos, simulaciones
+
+---
+
+### 📌 Semana 8: Árboles y Búsqueda Binaria
+
+* **Árboles (BST - Binary Search Tree):**
+  - Estructura jerárquica de datos
+  - Inserción, búsqueda y recorridos (preorden, inorden, postorden)
+  - Organización eficiente de datos
+
+* **Búsqueda Binaria:**
+  - Algoritmo eficiente para listas ordenadas
+  - Complejidad: $O(\log n)$
+  - Divide el problema en mitades en cada iteración
+
+---
+
 ## 🛠️ Ingeniería de Software (Por cada módulo)
 
 ### 📋 Requerimientos e Historias de Usuario
 | ID | Historia de Usuario | Requerimiento Relacionado |
 |:---|:---|:---|
 | HU01 | Como analista, quiero calcular promedios eficientemente. | El sistema debe usar DP para optimizar la suma de rangos. |
-| HU02 | Como usuario, quiero ver quién aprobó la materia. | El sistema debe filtrar notas $\geq 3.0$ tras el cálculo. |
+| HU02 | Como usuario, quiero ver quién aprobó la materia. | El sistema debe filtrar notas ≥ 3.0 tras el cálculo. |
+| HU03 | Como usuario, quiero gestionar datos con pilas y colas. | El sistema debe implementar estructuras LIFO y FIFO. |
+| HU04 | Como usuario, quiero buscar datos rápidamente. | El sistema debe implementar búsqueda binaria y árboles BST. |
 
-### 📊 Diagramas de Flujo y Usuarios
+---
+
+## 📊 Diagramas de Flujo y Usuarios
 Cada carpeta técnica incluye un **Mapa de Flujo** que describe el ciclo de vida del dato y un **Mapa de Usuario** que detalla la experiencia desde la entrada (input) hasta el resultado (output).
 
+---
 
+## ⏳ Análisis de Costo / Tiempo (Cost vs Time)
 
-### ⏳ Análisis de Costo / Tiempo (Cost vs Time)
 Evaluación de la complejidad temporal frente al costo computacional:
+
 * **Recursión Simple:** Costo de memoria alto (Stack).
-* **DP:** Mayor costo inicial de memoria (Tablas), pero tiempo de ejecución significativamente menor en problemas complejos.
+* **Programación Dinámica:** Mayor uso de memoria, menor tiempo de ejecución.
+* **Pilas y Colas:** Operaciones en $O(1)$.
+* **Árboles BST:**
+  - Mejor caso: $O(\log n)$
+  - Peor caso: $O(n)$
+* **Búsqueda Binaria:** $O(\log n)$
 
 ---
 
 ## 🚀 Instrucciones de Uso
-1. Navega a la carpeta del tema de interés (ej. `/programacion-dinamica`).
-2. Revisa el archivo `.py` o `.cpp` para ver la implementación.
-3. Consulta el PDF de diagramas para entender la lógica de flujo y usuario.
+1. Navega a la carpeta del tema de interés.
+2. Revisa el archivo `.py` o `.ipynb` para ver la implementación.
+3. Consulta el PDF para entender los diagramas.
 
 ---
-**Desarrollado por:** [Tu Nombre]  
-**Fecha:** 2026
+
+## 👤 Autor
+**Santiago Echeverría**  
+
+## 📅 Fecha
+2026
