@@ -132,7 +132,7 @@ Se implementó una simulación utilizando estructuras de datos para representar 
 
 ## 🎥 Video Explicativo
 
-👉 **[Agregar aquí el link del video]**
+👉 **https://drive.google.com/file/d/1TpmTN6NBoZYf40BA9nx6axheQvgtJzUq/view?usp=drive_link**
 
 ---
 
