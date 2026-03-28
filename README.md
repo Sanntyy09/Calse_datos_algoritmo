@@ -1,6 +1,6 @@
 # 🚀 Análisis y Diseño de Algoritmos: Documentación Técnica
 
-Este repositorio contiene el compendio de estrategias algorítmicas, análisis de complejidad y documentación de ingeniería de software desarrollados durante el curso. Aquí se exploran desde métodos básicos incrementales hasta optimizaciones avanzadas mediante Programación Dinámica y estructuras jerárquicas como los árboles.
+Este repositorio contiene el contenido de estrategias algorítmicas, análisis de complejidad y documentación de ingeniería de software desarrollados durante el curso. Aquí se exploran desde métodos básicos incrementales hasta optimizaciones avanzadas mediante Programación Dinámica y estructuras jerárquicas como los árboles.
 
 ---
 
