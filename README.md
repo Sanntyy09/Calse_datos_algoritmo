@@ -1,6 +1,6 @@
 # 🚀 Análisis y Diseño de Algoritmos: Documentación Técnica
 
-Este repositorio contiene el contenido de estrategias algorítmicas, análisis de complejidad y documentación de ingeniería de software desarrollados durante el curso. Aquí se exploran desde métodos básicos incrementales hasta optimizaciones avanzadas mediante Programación Dinámica y estructuras jerárquicas como los árboles.
+Este repositorio contiene el compendio de estrategias algorítmicas, análisis de complejidad y documentación de ingeniería de software desarrollados durante el curso. Aquí se exploran desde métodos básicos incrementales hasta optimizaciones avanzadas mediante Programación Dinámica y estructuras como árboles y grafos.
 
 ---
 
@@ -13,7 +13,7 @@ En las carpetas de este proyecto encontrarás la siguiente documentación detall
 * **Requerimientos:** Especificaciones funcionales y no funcionales.
 * **Historias de Usuario:** Perspectiva del usuario final sobre las funcionalidades.
 * **Análisis Cost/Time:** Evaluación de recursos vs. tiempo de ejecución.
-*  Codigo funcioanl 
+* Codígo funcional
 
 ---
 
@@ -23,35 +23,25 @@ En las carpetas de este proyecto encontrarás la siguiente documentación detall
 
 Análisis de algoritmos que construyen la solución un paso a la vez.
 
-* **Enfoque:** Resolución secuencial (ej. *Insertion Sort*).
-* **Contenido:** Documentación sobre cómo el crecimiento de los datos afecta la ejecución lineal.
-
 ### 2. Análisis Asintótico
 
-Estudio de la eficiencia de los algoritmos en el límite, cuando el tamaño de la entrada $n$ tiende al infinito.
-
-* **Notaciones:** $O(n)$ (Cota superior), $\Omega(n)$ (Cota inferior) y $\Theta(n)$ (Cota ajustada).
+Estudio de la eficiencia de los algoritmos cuando el tamaño de entrada crece.
 
 ### 3. Recursión
 
-Implementación de funciones que se llaman a sí mismas para resolver problemas mediante una estructura de "caso base" y "caso recursivo".
+Funciones que se llaman a sí mismas mediante caso base y recursivo.
 
-### 4. Dividir y Conquistar (Divide and Conquer)
+### 4. Dividir y Conquistar
 
-Técnica basada en desglosar un problema complejo en subproblemas independientes más simples.
-
-1. **Dividir:** Partir el problema.
-2. **Conquistar:** Resolver subproblemas.
-3. **Combinar:** Mezclar resultados.
+Descomposición de problemas en subproblemas más pequeños.
 
 ### 5. Teorema Maestro
 
-Método matemático para proporcionar una solución asintótica a las relaciones de recurrencia:
 $$T(n) = aT(n/b) + f(n)$$
 
-### 6. Programación Dinámica (DP)
+### 6. Programación Dinámica
 
-Optimización de algoritmos recursivos mediante el almacenamiento de resultados intermedios (Memoización o Tabulación) para evitar cálculos redundantes.
+Optimización mediante almacenamiento de resultados intermedios.
 
 ---
 
@@ -59,127 +49,90 @@ Optimización de algoritmos recursivos mediante el almacenamiento de resultados 
 
 ### 📌 Semana 7: Pilas y Colas
 
-Estructuras de datos fundamentales para el manejo de información en orden específico.
-
-* **Pilas (Stacks):**
-
-  * Estructura LIFO (Last In, First Out)
-  * Operaciones: push, pop, peek
-  * Aplicaciones: evaluación de expresiones, recursión
-
-* **Colas (Queues):**
-
-  * Estructura FIFO (First In, First Out)
-  * Operaciones: enqueue, dequeue
-  * Aplicaciones: manejo de procesos, simulaciones
+* **Pilas (Stacks):** LIFO
+* **Colas (Queues):** FIFO
 
 ---
 
 ### 📌 Semana 8: Árboles y Búsqueda Binaria
 
-* **Árboles (BST - Binary Search Tree):**
-
-  * Estructura jerárquica de datos
-  * Inserción, búsqueda y recorridos (preorden, inorden, postorden)
-  * Organización eficiente de datos
-
-* **Búsqueda Binaria:**
-
-  * Algoritmo eficiente para listas ordenadas
-  * Complejidad: $O(\log n)$
+* Árboles binarios (BST)
+* Recorridos (preorden, inorden, postorden)
+* Búsqueda binaria $O(\log n)$
 
 ---
 
-### 📌 Semana 9: Árboles y Simulación de Arenas
+### 📌 Semana 9: Grafos y Simulación de Arenas
 
-#### 🌳 Árboles
+#### 🔗 Grafos
 
-Se profundizó en el uso de árboles binarios como estructura fundamental para organizar datos jerárquicos.
+Se trabajó el modelado de problemas mediante grafos, representando relaciones entre elementos.
 
 * **Conceptos clave:**
 
-  * Nodo, raíz, hojas, altura y profundidad
-  * Árbol binario y árbol binario de búsqueda (BST)
+  * Vértices (nodos)
+  * Aristas (conexiones)
+  * Grafos dirigidos y no dirigidos
+  * Grafos ponderados
+
+* **Representación:**
+
+  * Listas de adyacencia
+  * Matrices de adyacencia
 
 * **Recorridos:**
 
-  * **Preorden:** Raíz → Izquierda → Derecha
-  * **Inorden:** Izquierda → Raíz → Derecha
-  * **Postorden:** Izquierda → Derecha → Raíz
+  * **DFS (Depth First Search)**
+  * **BFS (Breadth First Search)**
 
-* **Búsquedas:**
+* **Aplicaciones:**
 
-  * **DFS (Depth First Search):** Exploración en profundidad
-  * **BFS (Breadth First Search):** Exploración por niveles
-
-* **Complejidad:**
-
-  * Mejor caso: $O(\log n)$
-  * Peor caso: $O(n)$
+  * Redes sociales
+  * Rutas y caminos mínimos
+  * Modelado de sistemas
 
 ---
 
 #### 🏜️ Simulación de Arenas
 
-Se implementó una simulación basada en estructuras de datos para modelar procesos dinámicos.
+Se implementó una simulación utilizando estructuras de datos para representar procesos dinámicos.
 
 * **Características:**
 
   * Uso de colas para gestionar eventos
-  * Procesamiento secuencial de acciones
-  * Control de estados y cambios en el sistema
+  * Procesamiento por turnos
+  * Control de estados
 
 * **Objetivo:**
-  Representar escenarios donde múltiples elementos interactúan en un orden específico, aplicando lógica algorítmica.
+  Modelar situaciones donde múltiples elementos interactúan de forma ordenada.
 
 ---
 
-## 🛠️ Ingeniería de Software (Por cada módulo)
+## 🛠️ Ingeniería de Software
 
-### 📋 Requerimientos e Historias de Usuario
+### 📋 Historias de Usuario
 
-| ID   | Historia de Usuario                                      | Requerimiento Relacionado                                   |
-| :--- | :------------------------------------------------------- | :---------------------------------------------------------- |
-| HU01 | Como analista, quiero calcular promedios eficientemente. | El sistema debe usar DP para optimizar la suma de rangos.   |
-| HU02 | Como usuario, quiero ver quién aprobó la materia.        | El sistema debe filtrar notas ≥ 3.0 tras el cálculo.        |
-| HU03 | Como usuario, quiero gestionar datos con pilas y colas.  | El sistema debe implementar estructuras LIFO y FIFO.        |
-| HU04 | Como usuario, quiero buscar datos rápidamente.           | El sistema debe implementar búsqueda binaria y árboles BST. |
-| HU05 | Como usuario, quiero recorrer estructuras tipo árbol.    | El sistema debe implementar DFS y BFS.                      |
-
----
-
-## 📊 Diagramas de Flujo y Usuarios
-
-Cada carpeta técnica incluye un **Mapa de Flujo** que describe el ciclo de vida del dato y un **Mapa de Usuario** que detalla la experiencia desde la entrada (input) hasta el resultado (output).
+| ID   | Historia de Usuario               | Requerimiento                |
+| :--- | :-------------------------------- | :--------------------------- |
+| HU01 | Calcular promedios eficientemente | Uso de Programación Dinámica |
+| HU02 | Ver aprobados                     | Filtrar notas ≥ 3.0          |
+| HU03 | Manejar estructuras               | Implementar pilas y colas    |
+| HU04 | Buscar datos                      | Árboles y búsqueda binaria   |
+| HU05 | Recorrer grafos                   | Implementar DFS y BFS        |
 
 ---
 
-## ⏳ Análisis de Costo / Tiempo (Cost vs Time)
+## ⏳ Análisis de Complejidad
 
-Evaluación de la complejidad temporal frente al costo computacional:
-
-* **Recursión Simple:** Costo de memoria alto (Stack).
-* **Programación Dinámica:** Mayor uso de memoria, menor tiempo de ejecución.
-* **Pilas y Colas:** Operaciones en $O(1)$.
-* **Árboles BST:**
-
-  * Mejor caso: $O(\log n)$
-  * Peor caso: $O(n)$
-* **Búsqueda Binaria:** $O(\log n)$
+* Pilas/Colas: $O(1)$
+* Árboles BST: $O(\log n)$ / $O(n)$
+* Grafos (DFS/BFS): $O(V + E)$
 
 ---
 
 ## 🎥 Video Explicativo
 
 👉 **[Agregar aquí el link del video]**
-
----
-
-## 🚀 Instrucciones de Uso
-
-1. Navega a la carpeta del tema de interés.
-2. Revisa el archivo `.py` o `.ipynb` para ver la implementación.
-3. Consulta el PDF para entender los diagramas.
 
 ---
 
