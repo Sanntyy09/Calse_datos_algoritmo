@@ -13,7 +13,7 @@ En las carpetas de este proyecto encontrarás la siguiente documentación detall
 * **Requerimientos:** Especificaciones funcionales y no funcionales.
 * **Historias de Usuario:** Perspectiva del usuario final sobre las funcionalidades.
 * **Análisis Cost/Time:** Evaluación de recursos vs. tiempo de ejecución.
-* **Codigo funciaonla 
+*  Codigo funciaonla 
 
 ---
 
