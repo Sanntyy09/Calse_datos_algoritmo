@@ -1,6 +1,6 @@
 
 # =========================================
-# QUEUE USING TWO STACKS (CON MENSAJES)
+#  1  QUEUE USING TWO STACKS (CON MENSAJES)
 # =========================================
 
 print("=== COLA (QUEUE) CON DOS PILAS ===")
@@ -37,7 +37,7 @@ for _ in range(q):
         else:
             print("La cola está vacía")
 # =========================================
-# PREORDER TRAVERSAL (CON MENSAJES)
+#  2 PREORDER TRAVERSAL (CON MENSAJES)
 # =========================================
 
 print("=== RECORRIDO PREORDER ===")
@@ -71,7 +71,7 @@ root = (1,
 print("Resultado del recorrido preorder:")
 preOrder(root)
 # =========================================
-# KNIGHT IN A GRID (CON MENSAJES)
+# 3 KNIGHT IN A GRID (CON MENSAJES)
 # =========================================
 
 from collections import deque
